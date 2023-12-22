@@ -1,0 +1,12 @@
+FROM node:21-alpine3.17
+WORKDIR /backend
+COPY ./backend/package.json .
+RUN npm i -g pnpm cross-env jest nodemon
+RUN pnpm i
+COPY ./backend/ .
+COPY .env /
+COPY gcp-key.json /
+
+CMD ["pnpm","run","dev"]
+EXPOSE 5050
+EXPOSE 5051

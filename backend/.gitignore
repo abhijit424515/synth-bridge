@@ -1,0 +1,25 @@
+package-lock.json
+pnpm-lock.yaml
+node_modules
+
+# ENV files
+.env*
+
+# Coverage
+coverage/
+
+# Log files
+logs.txt
+
+*.temp
+data/
+**/__pycache__/
+
+cookies.txt
+chroma.log
+.pnpm-store
+db/
+
+# GCP
+gcp-key.json
+.pnpm-store

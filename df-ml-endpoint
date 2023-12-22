@@ -1,0 +1,8 @@
+FROM python:3.11.7-bookworm
+WORKDIR /ml-endpoint
+RUN apt update && apt upgrade -y && apt install -y build-essential git wget curl jq lsof
+RUN pip install pandas chromadb python-dotenv uuid langchain redis fastapi uvicorn[standard] pydantic openai tiktoken pypdf --break-system-packages
+COPY ./ml-endpoint/ .
+COPY .env /
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--reload"]
+EXPOSE 8000

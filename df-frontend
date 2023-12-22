@@ -1,0 +1,8 @@
+FROM node:21-alpine3.17
+WORKDIR /frontend
+COPY ./frontend/package.json ./
+RUN npm i -g pnpm 
+RUN pnpm i
+COPY ./frontend/ .
+CMD ["pnpm","run","dev", "--host"]
+EXPOSE 5173

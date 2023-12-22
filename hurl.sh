@@ -1,0 +1,1 @@
+hurl --variables-file .env -c ./hurl/cookies.txt -b ./hurl/cookies.txt --file-root ./hurl $1 $2
