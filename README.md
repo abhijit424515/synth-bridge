@@ -24,3 +24,62 @@ docker compose up --build
 cd frontend; npm i; npm run dev
 ```
 - If there are issues with the REST API calls, please try switching the browser.
+
+## Contributors
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/PrakharIITB">
+          <img src="https://avatars.githubusercontent.com/u/105409808?v=3?s=100" width="100px;" alt="PrakharIITB"/>
+          <br />
+          <sub>
+            <b>PrakharIITB</b>
+          </sub>
+        </a>
+        <br />
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/shiveshcodes">
+          <img src="https://avatars.githubusercontent.com/u/74242886?v=3?s=100" width="100px;" alt="shiveshcodes"/>
+          <br />
+          <sub>
+            <b>shiveshcodes</b>
+          </sub>
+        </a>
+        <br />
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/abhijit424515">
+          <img src="https://avatars.githubusercontent.com/u/91949654?v=3?s=100" width="100px;" alt="abhijit424515"/>
+          <br />
+          <sub>
+            <b>abhijit424515</b>
+          </sub>
+        </a>
+        <br />
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/aksh-at10">
+          <img src="https://avatars.githubusercontent.com/u/116720185?v=3?s=100" width="100px;" alt="aksh-at10"/>
+          <br />
+          <sub>
+            <b>aksh-at10</b>
+          </sub>
+        </a>
+        <br />
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/aasuss">
+          <img src="https://avatars.githubusercontent.com/u/39302818?v=3?s=100" width="100px;" alt="aasuss"/>
+          <br />
+          <sub>
+            <b>aasuss</b>
+          </sub>
+        </a>
+        <br />
+      </td>
+    </tr>
+  </tbody>
+</table>
